@@ -12,12 +12,13 @@ public int[] calAverage() {
 		letter[2] = StID.charAt(2);
 		letter[3] = StID.charAt(3);
 		
-		//
+		//Calculate mean by adding all number and divide by the length
 		double mean = 0;
 		for (int i = 0; i < letter.length; i++) {
 			mean += letter[i];
 		}
 		mean = mean/letter.length;
+		
 		
 		String[] split = String.valueOf(mean).split("\\.");
 		int[] split2 = new int[2];
