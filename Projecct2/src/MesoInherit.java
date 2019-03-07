@@ -16,9 +16,9 @@ public int[] calAverage() {
 			mean += letter[i];
 		}
 		mean = mean/letter.length;
-		average[0] = (int) mean;
-		average[1] = (int) Math.ceil(mean);
-		average[2] = (int) Math.floor(mean);
+		average[0] = (int) Math.ceil(mean);
+		average[1] = (int) Math.floor(mean);
+		average[2] = (int) (mean);
 		return average;
 	}
 	public char letterAverage() {
