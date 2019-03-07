@@ -12,7 +12,6 @@ public int[] calAverage() {
 		letter[2] = StID.charAt(2);
 		letter[3] = StID.charAt(3);
 		
-		int[] average = new int[4];
 		double mean = 0;
 		for (int i = 0; i < letter.length; i++) {
 			mean += letter[i];
@@ -24,8 +23,7 @@ public int[] calAverage() {
 		return average;
 	}
 	public char letterAverage() {
-		char answer = 'a';
-		answer = (char)calAverage[0];
+		char answer = (char) average[0];
 		return answer;
 	}
 }
