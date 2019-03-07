@@ -18,7 +18,11 @@ public int[] calAverage() {
 		mean = mean/letter.length;
 		average[0] = (int) Math.ceil(mean);
 		average[1] = (int) Math.floor(mean);
-		average[2] = (int) (mean);
+		String[] split = String.valueOf(mean).split("\\.");
+		int[] split2 = new int[2];
+		split2[0]=Integer.parseInt(split[0]);
+		split2[1]=Integer.parseInt(split[1]); 
+		average[2] = split[1].;
 		return average;
 	}
 	public char letterAverage() {
