@@ -5,7 +5,6 @@ public abstract class MesoInherit extends MesoAbstract {
 	}
 	
 public int[] calAverage() {
-		String StID = "OKCE";
 		int[] letter = new int[4];
 		letter[0] = StID.charAt(0);
 		letter[1] = StID.charAt(1);
