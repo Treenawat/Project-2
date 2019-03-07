@@ -40,6 +40,7 @@ public int[] calAverage() {
 		return average;
 	}
 	public char letterAverage() {
+		//cast char on the average to find char at that number
 		char answer = (char) average[0];
 		return answer;
 	}
