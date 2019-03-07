@@ -26,7 +26,7 @@ public int[] calAverage() {
 		split2[1]=Integer.parseInt(split[1]); 
 		int firstDigit = Integer.parseInt(Integer.toString(split2[1]).substring(0, 1));
 		
-		//
+		//input each type of mean into average array
 		average[0] = (int) Math.ceil(mean);
 		average[1] = (int) Math.floor(mean);
 		if (firstDigit >= 5) {
@@ -35,6 +35,8 @@ public int[] calAverage() {
 		else {
 			average[2] = (int) Math.floor(mean);
 		}
+		
+		//
 		return average;
 	}
 	public char letterAverage() {
