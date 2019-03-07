@@ -1,4 +1,4 @@
-public abstract class MesoInherit extends MesoAbstract {
+public class MesoInherit extends MesoAbstract {
 	
 	public MesoInherit(MesoStation mesoStation) {
 		super(mesoStation);
