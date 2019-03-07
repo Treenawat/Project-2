@@ -1,4 +1,9 @@
 public abstract class MesoInherit {
+	
+	public MesoInherit(MesoStation mesoStation) {
+		super(mesoStation);
+	}
+	
 public int[] calAverage() {
 		String StID = "OKCE";
 		int[] letter = new int[4];

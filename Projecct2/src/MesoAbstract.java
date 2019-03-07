@@ -2,8 +2,10 @@ public abstract class MesoAbstract
 {
 	protected String StID;
 	
-	public mesoAbstract(MesoStation mesostation) {
-		
+	public MesoAbstract(MesoStation mesoStation) {
+		StID = mesoStation.getStID();
 	}
+	
+	
 	
 }
