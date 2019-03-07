@@ -9,5 +9,4 @@ public abstract class MesoAbstract
 	}
 	
 	int[] average = new int[3];
-	
 }
