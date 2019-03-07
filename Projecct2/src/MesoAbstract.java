@@ -1,4 +1,9 @@
 public abstract class MesoAbstract 
 {
-   //TODO	
+	public int[] calAverage() {
+		
+	}
+	public char letterAverage() {
+		
+	}
 }
