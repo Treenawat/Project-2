@@ -13,10 +13,10 @@ public int[] calAverage() {
 			mean += letter[i];
 		}
 		mean = mean/letter.length;
-		average[0] = ;
-		average[1] = Math.ceil(mean);
-		average[2] = ;
-		
+		average[0] = (int) mean;
+		average[1] = (int) Math.ceil(mean);
+		average[2] = (int) Math.floor(mean);
+		return average;
 	}
 	public char letterAverage() {
 		
