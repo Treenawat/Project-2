@@ -36,7 +36,7 @@ public int[] calAverage() {
 			average[2] = (int) Math.floor(mean);
 		}
 		
-		//
+		//return average[]
 		return average;
 	}
 	public char letterAverage() {
