@@ -19,8 +19,8 @@ public int[] calAverage() {
 		return average;
 	}
 	public char letterAverage() {
-		char answer = "a";
-		calAverage[0];
-		
+		char answer = 'a';
+		answer = (char)calAverage[0];
+		return answer;
 	}
 }
